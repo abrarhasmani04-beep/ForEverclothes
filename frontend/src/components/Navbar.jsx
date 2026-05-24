@@ -101,6 +101,16 @@ function Navbar() {
           >
             HOME
           </NavLink>
+
+          <NavLink
+            className="py-2 pl-6 border text-gray-800"
+            to="/collection"
+            onClick={() => {
+              setvisible(false);
+            }}
+          >
+            collection
+          </NavLink>
           <NavLink
             className="py-2 pl-6 border text-gray-800"
             to="/about"
